@@ -1,0 +1,19 @@
+@charset  "utf-8";
+
+.top .nav-link.active{
+	color: deepgreen !important;
+	border-top-color: red !important;
+	border-left-color: red !important;
+	border-right-color: red !important;
+}
+.top .nav-link{
+	color: blue;
+}
+.top .nav-link:hover{
+	color: deeppink !important;
+}
+.top .dropdown-item:hover{
+	background: red;
+	color: white;
+}
+.top{border-bottom-color: red;}
